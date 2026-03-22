@@ -1,0 +1,72 @@
+body{
+    /* background-color: white; */
+    /* color: black; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* display: block; */
+}
+
+/* credit以外はcenteringでくくる */
+.centering{
+    display: block;
+    width: 80%;
+    margin: 0 10%;
+    padding: 0;
+}
+
+.title{
+    margin-bottom: -10px;
+    display: block;
+    text-align: left;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+p{
+    font-size: 14px;
+    display: block;
+    text-align: left;
+}
+
+/* stageは枠線、mainでくくる */
+.main{
+    /* background: azure; */
+    /* border: double 3px blue; */
+    margin: 10px 10%;
+    padding: 10px 0;
+}
+
+.stage{
+    /* color: green; */
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* flameはウィンドウサイズ可変ブロック */
+.middle{
+    display:block;
+}
+
+.flame{
+    width:420px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.credit{
+    font-size: 10px;
+    text-align: center;
+}
+
+/* 文字色 */
+.red{
+    color :red;
+}
+
+.white{
+    color: white;
+}
